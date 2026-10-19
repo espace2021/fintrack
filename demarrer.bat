@@ -15,4 +15,4 @@ echo Plateforme : %LAKEHOUSE%
 echo Projet     : %PROJET%
 
 rem La plateforme (l'API FinTrack est sur Render)
-docker compose --project-directory "%LAKEHOUSE%" -f "%LAKEHOUSE%\docker-compose.yml" --env-file "%LAKEHOUSE%\.env" up -d --build
+docker compose --profile ml --project-directory "%LAKEHOUSE%" -f "%LAKEHOUSE%\docker-compose.yml" --env-file "%LAKEHOUSE%\.env" up -d --build
