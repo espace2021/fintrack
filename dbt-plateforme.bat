@@ -1,0 +1,1 @@
+@docker exec lakehouse-airflow-1 /home/airflow/dbt-venv/bin/dbt %* --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt --target-path /tmp/dbt-target --log-path /tmp/dbt-logs

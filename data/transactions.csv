@@ -1,0 +1,101 @@
+id,transaction_id,account_id,timestamp,amount,direction,currency,category,merchant,channel,country,status
+1,T00000001,A00077,2026-10-09T08:32:11+00:00,2981.47,debit,EUR,shopping,Decathlon,carte_en_ligne,RU,accepted
+2,T00000002,A00049,2026-10-09T08:33:08+00:00,86.31,debit,EUR,restaurant,Sushi Shop,carte_en_ligne,FR,accepted
+3,T00000003,A00077,2026-10-09T08:34:05+00:00,49.5,debit,EUR,transport,Vélib,carte,FR,accepted
+4,T00000004,A00006,2026-10-09T08:35:02+00:00,10.73,debit,EUR,transport,RATP,carte_en_ligne,FR,accepted
+5,T00000005,A00054,2026-10-09T08:35:59+00:00,247.57,debit,EUR,shopping,Amazon,carte,IT,accepted
+6,T00000006,A00029,2026-10-09T08:36:56+00:00,186.49,debit,EUR,sante,Optic 2000,carte,FR,accepted
+7,T00000007,A00003,2026-10-09T08:37:53+00:00,72.11,debit,EUR,loisirs,UGC,carte,FR,accepted
+8,T00000008,A00008,2026-10-09T08:38:50+00:00,77.58,debit,EUR,alimentation,Lidl,carte,FR,accepted
+9,T00000009,A00047,2026-10-09T08:39:47+00:00,58.42,debit,EUR,transport,RATP,prelevement,FR,accepted
+10,T00000010,A00006,2026-10-09T08:40:44+00:00,43.89,debit,EUR,restaurant,Le Petit Zinc,carte,FR,accepted
+11,T00000011,A00027,2026-10-09T08:41:41+00:00,26.87,debit,EUR,alimentation,Monoprix,prelevement,FR,accepted
+12,T00000012,A00076,2026-10-09T08:42:38+00:00,258.95,debit,EUR,shopping,Fnac,carte,FR,accepted
+13,T00000013,A00038,2026-10-09T08:43:35+00:00,51.12,debit,EUR,alimentation,Carrefour,prelevement,FR,accepted
+14,T00000014,A00028,2026-10-09T08:44:32+00:00,86.59,debit,EUR,restaurant,Sushi Shop,carte,BE,accepted
+15,T00000015,A00050,2026-10-09T08:45:29+00:00,41.06,debit,EUR,alimentation,Franprix,prelevement,FR,accepted
+16,T00000016,A00013,2026-10-09T08:46:26+00:00,73.43,debit,EUR,alimentation,Biocoop,carte,FR,accepted
+17,T00000017,A00022,2026-10-09T08:47:23+00:00,14.43,debit,EUR,alimentation,Lidl,carte_en_ligne,FR,accepted
+18,T00000018,A00045,2026-10-09T08:48:20+00:00,79.23,debit,EUR,alimentation,Carrefour,carte,FR,accepted
+19,T00000019,A00025,2026-10-09T08:49:17+00:00,41.46,debit,EUR,transport,SNCF,carte_en_ligne,FR,accepted
+20,T00000020,A00014,2026-10-09T08:50:14+00:00,189.33,debit,EUR,shopping,Fnac,carte_en_ligne,ES,accepted
+21,T00000021,A00068,2026-10-09T08:51:11+00:00,37.4,debit,EUR,alimentation,Monoprix,carte_en_ligne,FR,accepted
+22,T00000022,A00005,2026-10-09T08:52:08+00:00,128.15,debit,EUR,loisirs,UGC,prelevement,FR,declined
+23,T00000023,A00001,2026-10-09T08:53:05+00:00,90.24,debit,EUR,alimentation,Franprix,prelevement,FR,accepted
+24,T00000024,A00014,2026-10-09T08:54:02+00:00,9.14,debit,EUR,alimentation,Biocoop,carte,FR,accepted
+25,T00000025,A00034,2026-10-09T08:54:59+00:00,107.85,debit,EUR,voyage,Air France,carte,FR,accepted
+26,T00000026,A00042,2026-10-09T08:55:56+00:00,14.06,debit,EUR,transport,RATP,carte,FR,accepted
+27,T00000027,A00017,2026-10-09T08:56:53+00:00,162.42,debit,EUR,sante,Doctolib,carte,FR,accepted
+28,T00000028,A00029,2026-10-09T08:57:50+00:00,39.59,debit,EUR,loisirs,UGC,prelevement,FR,accepted
+29,T00000029,A00034,2026-10-09T08:58:47+00:00,33.08,debit,EUR,transport,Uber,carte,FR,accepted
+30,T00000030,A00057,2026-10-09T08:59:44+00:00,75.26,debit,EUR,transport,RATP,carte_en_ligne,FR,accepted
+31,T00000031,A00055,2026-10-09T09:00:41+00:00,68.28,debit,EUR,restaurant,Boulangerie Paul,carte,FR,accepted
+32,T00000032,A00043,2026-10-09T09:01:38+00:00,64.91,debit,EUR,transport,Uber,carte,FR,accepted
+33,T00000033,A00029,2026-10-09T09:02:35+00:00,102.52,debit,EUR,alimentation,Franprix,carte_en_ligne,FR,accepted
+34,T00000034,A00061,2026-10-09T09:03:32+00:00,16.96,debit,EUR,transport,RATP,prelevement,FR,accepted
+35,T00000035,A00044,2026-10-09T09:04:29+00:00,29.17,debit,EUR,alimentation,Biocoop,carte_en_ligne,FR,accepted
+36,T00000036,A00049,2026-10-09T09:05:26+00:00,121.04,debit,EUR,loisirs,UGC,carte,FR,accepted
+37,T00000037,A00003,2026-10-09T09:06:23+00:00,54.63,debit,EUR,sante,Pharmacie Centrale,carte,FR,accepted
+38,T00000038,A00048,2026-10-09T09:07:20+00:00,144.79,debit,EUR,shopping,Amazon,carte,FR,accepted
+39,T00000039,A00018,2026-10-09T09:08:17+00:00,130.18,debit,EUR,loisirs,Spotify,prelevement,FR,accepted
+40,T00000040,A00066,2026-10-09T09:09:14+00:00,73.56,debit,EUR,transport,TotalEnergies,carte,FR,accepted
+41,T00000041,A00044,2026-10-09T09:10:11+00:00,141.13,debit,EUR,shopping,IKEA,prelevement,FR,accepted
+42,T00000042,A00027,2026-10-09T09:11:08+00:00,33.43,debit,EUR,alimentation,Monoprix,prelevement,FR,accepted
+43,T00000043,A00038,2026-10-09T09:12:05+00:00,81.44,debit,EUR,restaurant,Sushi Shop,carte,FR,accepted
+44,T00000044,A00038,2026-10-09T09:13:02+00:00,53.41,debit,EUR,restaurant,Boulangerie Paul,carte,FR,accepted
+45,T00000045,A00029,2026-10-09T09:13:59+00:00,116.71,debit,EUR,loisirs,UGC,carte,FR,accepted
+46,T00000046,A00024,2026-10-09T09:14:56+00:00,69.8,debit,EUR,restaurant,Boulangerie Paul,carte,FR,accepted
+47,T00000047,A00061,2026-10-09T09:15:53+00:00,64.26,debit,EUR,transport,RATP,prelevement,FR,accepted
+48,T00000048,A00006,2026-10-09T09:16:50+00:00,8.55,debit,EUR,transport,RATP,prelevement,FR,accepted
+49,T00000049,A00010,2026-10-09T09:17:47+00:00,80.37,debit,EUR,restaurant,Big Mamma,prelevement,FR,accepted
+50,T00000050,A00025,2026-10-09T09:18:44+00:00,52.6,debit,EUR,sante,Pharmacie Centrale,carte,FR,accepted
+51,T00000051,A00069,2026-10-09T09:19:41+00:00,81.99,debit,EUR,alimentation,Biocoop,carte,FR,accepted
+52,T00000052,A00011,2026-10-09T09:20:38+00:00,146.49,debit,EUR,sante,Doctolib,carte,FR,accepted
+53,T00000053,A00057,2026-10-09T09:21:35+00:00,61.29,debit,EUR,loisirs,Netflix,carte,FR,accepted
+54,T00000054,A00005,2026-10-09T09:22:32+00:00,257.33,debit,EUR,shopping,IKEA,carte,FR,accepted
+55,T00000055,A00043,2026-10-09T09:23:29+00:00,28.62,debit,EUR,transport,SNCF,prelevement,FR,accepted
+56,T00000056,A00052,2026-10-09T09:24:26+00:00,139.11,debit,EUR,shopping,IKEA,carte_en_ligne,FR,accepted
+57,T00000057,A00044,2026-10-09T09:25:23+00:00,27.14,debit,EUR,transport,Uber,carte,FR,accepted
+58,T00000058,A00022,2026-10-09T09:26:20+00:00,12.3,debit,EUR,restaurant,Boulangerie Paul,carte,FR,accepted
+59,T00000059,A00025,2026-10-09T09:27:17+00:00,70.65,debit,EUR,transport,SNCF,carte,FR,accepted
+60,T00000060,A00028,2026-10-09T09:28:14+00:00,199.08,debit,EUR,shopping,Fnac,carte,FR,accepted
+61,T00000061,A00032,2026-10-09T09:29:11+00:00,38.91,debit,EUR,transport,Vélib,prelevement,FR,accepted
+62,T00000062,A00022,2026-10-09T09:30:08+00:00,87.95,debit,EUR,alimentation,Monoprix,carte,FR,accepted
+63,T00000063,A00036,2026-10-09T09:31:05+00:00,185.09,debit,EUR,shopping,Zara,carte_en_ligne,IT,accepted
+64,T00000064,A00028,2026-10-09T09:32:02+00:00,1677.8,debit,EUR,shopping,IKEA,carte_en_ligne,US,accepted
+65,T00000065,A00044,2026-10-09T09:32:59+00:00,70.07,debit,EUR,transport,TotalEnergies,prelevement,FR,accepted
+66,T00000066,A00055,2026-10-09T09:33:56+00:00,24.2,debit,EUR,loisirs,Netflix,prelevement,FR,accepted
+67,T00000067,A00059,2026-10-09T09:34:53+00:00,25.7,debit,EUR,transport,Vélib,prelevement,ES,accepted
+68,T00000068,A00055,2026-10-09T09:35:50+00:00,45.42,debit,EUR,restaurant,Big Mamma,prelevement,FR,accepted
+69,T00000069,A00025,2026-10-09T09:36:47+00:00,49.48,debit,EUR,sante,Pharmacie Centrale,carte,FR,accepted
+70,T00000070,A00059,2026-10-09T09:37:44+00:00,2851.51,credit,EUR,revenu,Employeur,virement,FR,accepted
+71,T00000071,A00063,2026-10-09T09:38:41+00:00,103.85,debit,EUR,alimentation,Lidl,carte,FR,accepted
+72,T00000072,A00008,2026-10-09T09:39:38+00:00,30.85,debit,EUR,alimentation,Monoprix,carte_en_ligne,FR,accepted
+73,T00000073,A00069,2026-10-09T09:40:35+00:00,138.81,debit,EUR,loisirs,UGC,prelevement,FR,accepted
+74,T00000074,A00003,2026-10-09T09:41:32+00:00,57.84,debit,EUR,restaurant,Big Mamma,carte_en_ligne,FR,accepted
+75,T00000075,A00047,2026-10-09T09:42:29+00:00,76.16,debit,EUR,transport,RATP,carte,DE,accepted
+76,T00000076,A00034,2026-10-09T09:43:26+00:00,682.03,debit,EUR,voyage,Accor,carte,FR,accepted
+77,T00000077,A00005,2026-10-09T09:44:23+00:00,52.34,debit,EUR,alimentation,Franprix,prelevement,FR,accepted
+78,T00000078,A00042,2026-10-09T09:45:20+00:00,636.05,debit,EUR,voyage,Accor,carte,FR,accepted
+79,T00000079,A00014,2026-10-09T09:46:17+00:00,36.48,debit,EUR,transport,Vélib,carte_en_ligne,FR,accepted
+80,T00000080,A00029,2026-10-09T09:47:14+00:00,116.91,debit,EUR,alimentation,Monoprix,carte,FR,accepted
+81,T00000081,A00048,2026-10-09T09:48:11+00:00,1373.75,debit,EUR,voyage,Booking.com,carte,FR,accepted
+82,T00000082,A00038,2026-10-09T09:49:08+00:00,48.6,debit,EUR,restaurant,Sushi Shop,prelevement,FR,accepted
+83,T00000083,A00049,2026-10-09T09:50:05+00:00,13.03,debit,EUR,alimentation,Lidl,prelevement,FR,accepted
+84,T00000084,A00015,2026-10-09T09:51:02+00:00,3479.92,debit,EUR,voyage,Accor,carte_en_ligne,RU,accepted
+85,T00000085,A00055,2026-10-09T09:51:59+00:00,122.5,debit,EUR,shopping,Zara,carte,FR,accepted
+86,T00000086,A00066,2026-10-09T09:52:56+00:00,47.84,debit,EUR,restaurant,Boulangerie Paul,prelevement,FR,accepted
+87,T00000087,A00011,2026-10-09T09:53:53+00:00,33.99,debit,EUR,sante,Doctolib,carte,DE,accepted
+88,T00000088,A00032,2026-10-09T09:54:50+00:00,62.38,debit,EUR,restaurant,Big Mamma,prelevement,FR,accepted
+89,T00000089,A00052,2026-10-09T09:55:47+00:00,63.95,debit,EUR,restaurant,Boulangerie Paul,carte_en_ligne,FR,accepted
+90,T00000090,A00076,2026-10-09T09:56:44+00:00,199.51,debit,EUR,sante,Pharmacie Centrale,prelevement,FR,accepted
+91,T00000091,A00034,2026-10-09T09:57:41+00:00,272.48,debit,EUR,shopping,Decathlon,carte,FR,accepted
+92,T00000092,A00038,2026-10-09T09:58:38+00:00,63.82,debit,EUR,transport,Vélib,carte,FR,accepted
+93,T00000093,A00045,2026-10-09T09:59:35+00:00,58.03,debit,EUR,alimentation,Carrefour,carte_en_ligne,FR,accepted
+94,T00000094,A00045,2026-10-09T10:00:32+00:00,37.65,debit,EUR,restaurant,Big Mamma,prelevement,FR,accepted
+95,T00000095,A00003,2026-10-09T10:01:29+00:00,20.5,debit,EUR,transport,Uber,carte_en_ligne,FR,accepted
+96,T00000096,A00074,2026-10-09T10:02:26+00:00,55.49,debit,EUR,transport,Vélib,carte,FR,accepted
+97,T00000097,A00026,2026-10-09T10:03:23+00:00,188.01,debit,EUR,shopping,IKEA,carte,FR,accepted
+98,T00000098,A00044,2026-10-09T10:04:20+00:00,97.21,debit,EUR,loisirs,UGC,carte,FR,accepted
+99,T00000099,A00052,2026-10-09T10:05:17+00:00,54.39,debit,EUR,loisirs,Spotify,carte,FR,accepted
+100,T00000100,A00074,2026-10-09T10:06:14+00:00,23.92,debit,EUR,alimentation,Lidl,prelevement,FR,accepted

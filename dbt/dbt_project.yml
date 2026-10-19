@@ -1,0 +1,15 @@
+name: lakehouse
+version: "1.0.0"
+profile: lakehouse
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+ 
+models:
+  lakehouse:
+    +materialized: table
+    +file_format: iceberg          # tables au format Iceberg
+    silver:
+      +schema: silver              # tables créées dans lake.silver
+    gold:
+      +schema: gold                # tables créées dans lake.gold

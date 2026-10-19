@@ -1,0 +1,16 @@
+version: 2
+ 
+sources:
+  - name: bronze                   # les tables créées par Spark à l'atelier 3
+    schema: bronze
+    tables:
+      - name: transactions
+        columns:
+          - name: transaction_id
+            data_tests:
+              - unique:
+                  config:
+                    severity: warn   # avertir sans bloquer
+      - name: accounts
+      - name: customers
+      - name: fraud_reports

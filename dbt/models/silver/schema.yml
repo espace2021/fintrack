@@ -1,0 +1,28 @@
+version: 2
+ 
+models:
+  - name: transactions
+    description: "Transactions valides et nettoyées, une ligne par transaction."
+    columns:
+      - name: transaction_id
+        data_tests: [unique, not_null]
+      - name: amount
+        data_tests: [not_null]
+      - name: transaction_ts
+        data_tests: [not_null]
+      - name: category
+        data_tests:
+          - accepted_values:
+              values: ['alimentation', 'restaurant', 'transport', 'shopping',
+                       'loisirs', 'sante', 'voyage', 'revenu']
+      - name: account_id
+        data_tests:
+          - relationships:
+              to: ref('comptes')
+              field: account_id
+ 
+  - name: transactions_rejetees
+    description: "Lignes écartées de silver, avec le motif du rejet."
+    columns:
+      - name: motif_rejet
+        data_tests: [not_null]

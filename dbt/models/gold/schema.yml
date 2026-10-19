@@ -1,0 +1,15 @@
+version: 2
+ 
+models:
+  - name: depenses_par_categorie
+    columns:
+      - name: category
+        data_tests: [unique, not_null]
+  - name: transactions_ml
+    columns:
+      - name: transaction_id
+        data_tests: [unique, not_null]
+      - name: est_fraude
+        data_tests:
+          - accepted_values:
+              values: [0, 1]

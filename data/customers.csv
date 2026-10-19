@@ -1,0 +1,21 @@
+customer_id,first_name,last_name,email,city,birth_date,segment,created_at
+C0001,Lucie,Marie,traorerobert@example.org,Joly,1992-03-03,standard,2025-02-06
+C0002,Hortense,Olivier,lambertmargaud@example.org,Chevalier,1999-08-29,standard,2026-01-13
+C0003,Agnès,Vasseur,danielleteixeira@example.org,Saint Honoré,1985-04-21,premium,2025-09-01
+C0004,Paulette,Colin,toussainttheophile@example.net,Raynaud-sur-Mer,1955-05-27,premium,2025-07-10
+C0005,Jacqueline,Vasseur,guerinmathilde@example.net,Saint Daniel,2002-10-25,standard,2025-12-31
+C0006,Éric,Chrétien,jacquescordier@example.com,Benoitnec,2002-08-18,standard,2022-07-31
+C0007,Hugues,Boyer,lemoinedaniel@example.net,Saint AnneBourg,2005-02-04,standard,2024-07-28
+C0008,Margaud,Duval,remyferreira@example.org,Meyer-la-Forêt,1963-07-11,standard,2022-10-22
+C0009,Marie,Gérard,lemaitreisabelle@example.net,Perret,1953-10-20,standard,2023-04-15
+C0010,Auguste,Lelièvre,lucjacques@example.com,Dumas,1959-10-26,premium,2025-01-07
+C0011,Margot,Lejeune,anne48@example.org,De Oliveira,1987-08-31,premium,2023-08-21
+C0012,Denise,Dupré,eric34@example.org,Caron,1947-04-25,standard,2022-12-22
+C0013,Brigitte,Garnier,noel45@example.com,Faure-les-Bains,1955-04-11,pro,2023-08-28
+C0014,Émile,Weiss,ddufour@example.org,Sainte Alex,1966-05-25,standard,2024-01-04
+C0015,François,Grenier,claude91@example.net,Sainte Élisabeth,1972-10-05,premium,2023-08-05
+C0016,Véronique,Fernandez,catherine37@example.net,Laroche-sur-Gillet,1966-12-19,premium,2024-03-15
+C0017,Sophie,Durand,cousinmatthieu@example.com,Schneider,1987-08-09,standard,2023-08-03
+C0018,Patricia,Hardy,eugene34@example.org,Colin,1964-10-25,standard,2025-04-03
+C0019,Claudine,Legrand,fernandeshenri@example.net,Clément,2008-05-23,premium,2022-05-09
+C0020,Olivier,Giraud,barbieradrien@example.com,Lagardedan,1964-02-15,premium,2022-11-28

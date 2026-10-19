@@ -1,0 +1,20 @@
+lakehouse:
+  target: spark                    # le moteur utilisé par défaut
+  outputs:
+    spark:                         # dbt envoie ses requêtes au Spark Thrift Server
+      type: spark
+      method: thrift
+      host: "{{ env_var('SPARK_THRIFT_HOST', 'spark-thrift') }}"
+      port: 10000
+      user: dbt
+      schema: analytics
+      threads: 1
+    trino:                         # l'ancien moteur, gardé pour comparaison
+      type: trino
+      method: none
+      user: admin
+      host: "{{ env_var('TRINO_HOST', 'localhost') }}"
+      port: "{{ env_var('TRINO_PORT', '8085') | int }}"
+      database: iceberg
+      schema: analytics
+      threads: 4
